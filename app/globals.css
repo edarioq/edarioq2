@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+a:hover {
+  transition: 300ms;
+  @apply text-sky-400;
+}
+a.active {
+  @apply text-sky-400;
+}
